@@ -1,4 +1,3 @@
-Below is a complete README.md you can copy‑and‑paste directly into the root of your GitHub repository.
 
 # Mandelbrot Set Boundary Analysis  
 

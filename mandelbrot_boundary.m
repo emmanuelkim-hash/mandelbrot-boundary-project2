@@ -32,9 +32,9 @@ colorbar;                          % shows the color scale for iteration counts
 % 2. Locate boundary points along vertical lines for x in [-2, 1]
 % Here, we probe along vertical lines (fixed x, varying y) to find where
 % the Mandelbrot set boundary crosses, using bisection on the indicator
-% function. We use 103 points to meet the requirement of at least 103.
+% function. We use 1000 points to meet the requirement of at least 1000.
 % --------------------------------------------------------------------
-xVals   = linspace(-2, 1, 103);    % probing positions along real axis
+xVals   = linspace(-2, 1, 1000);    % probing positions along real axis
 boundary = zeros(size(xVals));     % will store the y-values of boundary points
 
 for k = 1:numel(xVals)

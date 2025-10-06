@@ -23,7 +23,7 @@
 The script performs five main tasks:
 
 1. **Visualisation** – Generates a coloured image of the Mandelbrot set on a rectangular region of the complex plane using the classic escape‑time algorithm.  
-2. **Boundary Extraction** – Scans 103 evenly spaced vertical lines (fixed real part, varying imaginary part) and uses a bisection search to locate the set’s edge on each line.  
+2. **Boundary Extraction** – Scans 1000 evenly spaced vertical lines (fixed real part, varying imaginary part) and uses a bisection search to locate the set’s edge on each line.  
 3. **Polynomial Fitting** – Fits a 15th‑order polynomial to all valid boundary points that lie within a hand‑tuned window (`x ∈ [-2, 0.25]`).  
 4. **Arc‑Length Computation** – Numerically integrates the derivative of the fitted polynomial to obtain an estimate of the boundary’s length.  
 5. **Result Saving** – Writes the polynomial coefficients and the computed arc length to `mandelbrot_results.mat`.
